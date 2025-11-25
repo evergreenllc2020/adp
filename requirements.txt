@@ -9,7 +9,8 @@ qrcode
 tavily-python>=0.7.12
 textstat
 vertexai
-langchain 
+langchain
+langchain-core 
 langchain-community 
 langchain-openai 
 langgraph
