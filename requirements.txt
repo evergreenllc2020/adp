@@ -14,6 +14,11 @@ langchain-core
 langchain-community 
 langchain-openai 
 langgraph
+google-cloud-aiplatform
+langchain-google-genai
+google-adk 
+deprecated 
+pydantic
 
 # === Web Framework + API ===
 fastapi
