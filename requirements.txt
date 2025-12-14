@@ -1,12 +1,10 @@
 # === Agent + LLM Tools ===
-aisuite==0.1.11
+httpx<1.0.0,>=0.28.1
 anthropic
 docstring-parser
 markdown
 mistralai
 openai
-qrcode
-tavily-python>=0.7.12
 textstat
 vertexai
 langchain
@@ -14,9 +12,9 @@ langchain-core
 langchain-community 
 langchain-openai 
 langgraph
-google-cloud-aiplatform
-langchain-google-genai
-google-adk 
+google-cloud-aiplatform[all]==1.130.0
+google-genai==1.55.0  
+google-adk==1.21.0
 deprecated 
 pydantic
 nest_asyncio
@@ -28,7 +26,6 @@ pydantic[email]
 python-dotenv
 python-multipart
 requests
-sqlalchemy
 uvicorn
 
 # === Notebook Experience ===
